@@ -29,10 +29,10 @@ const textField = document.getElementById("pesan")
 const addBtn = document.getElementById("btn")
 
 addBtn.addEventListener("click", function() {
-    let inputValueName = inputName.value,
-    let inputValueEmail = inputEmail.value,
-    let inpuValueText = textField.value
+    let inputValueName = inputName.value
+    // let inputValueEmail = inputEmail.value,
+    // let inpuValueText = textField.value
 
-    push(inputDB, inputValueName, inputValueEmail, inpuValueText)
+    push(inputDB, inputValueName)
     // console.log(inputValueName, inputValueEmail, inpuValueText)
 })
